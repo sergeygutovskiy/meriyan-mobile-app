@@ -7,8 +7,9 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Container(
         color: Colors.white,
-        padding: const EdgeInsets.symmetric(horizontal: 16, vertical: 32),
+        padding: const EdgeInsets.only(left: 16, right: 16),
         child: ListView(
+          padding: const EdgeInsets.only(top: 32),
           children: [
                 Text("О нас",
                 style: Theme.of(context).textTheme.headline1

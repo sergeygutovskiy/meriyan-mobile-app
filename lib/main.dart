@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:meriyan/screens/contacts.dart';
+import 'package:meriyan/screens/favourites.dart';
 import 'package:meriyan/screens/home.dart';
 import 'package:meriyan/screens/tours.dart';
 
@@ -59,10 +59,10 @@ class App extends StatelessWidget {
                             icon: Icon(Icons.card_travel),
                         ),
                         Tab(
-                            icon: Icon(Icons.home),
+                            icon: Icon(Icons.info),
                         ),
                         Tab(
-                            icon: Icon(Icons.contact_page),
+                            icon: Icon(Icons.favorite),
                         )
                     ],
                 ),
